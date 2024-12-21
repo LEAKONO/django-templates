@@ -1,0 +1,4 @@
+<h1>{{ post.title }}</h1>
+<p>by {{ post.author }} on {{ post.created_at|date:"F j, Y" }}</p>
+<p>{{ post.content }}</p>
+<a href="{% url 'home' %}">Back to Home</a>
